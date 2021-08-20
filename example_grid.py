@@ -19,7 +19,7 @@ for x in range(int(width/size)-1):
         colour = choice(colours)
         window.create_rectangle(x*size, y*size, (x+1)*size, (y+1)*size, fill=colour, outline = colour)
 
-window.create_text(100,100,anchor=SW,fill='black',font="Arial 30 italic bold",text="• Current Location")
+window.create_text(450,325,fill='black',font="Arial 30 italic bold",text="• Current Location")
 
 window.pack()
 
