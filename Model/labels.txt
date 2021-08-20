@@ -1,0 +1,3 @@
+0 Dry
+1 Halfway
+2 Good
